@@ -1,4 +1,4 @@
-def turn_count(board)
+def turn_count
   # board=[" "," "," "," "," "," "," "," "," ",]
   turns_played = 0
   board.each do |occupied_positions|
