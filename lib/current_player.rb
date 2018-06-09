@@ -14,7 +14,9 @@ end
 def current_player
   if turn_count%2 == 0
     current_player= "X"
+    puts "X"
   else
     current_player="O"
+    puts "O"
 end
 end
