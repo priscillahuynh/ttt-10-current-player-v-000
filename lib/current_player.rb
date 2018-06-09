@@ -2,7 +2,6 @@ def turn_count
   board=[" "," "," "," "," "," "," "," "," ",]
   count = 0
   board.each do |occupied_positions|
-  while count<= (board.length-1)
     count +=1
     puts "#{occupied_positions.length}"
     # turns +=  occupied_positions <= board.length-1
