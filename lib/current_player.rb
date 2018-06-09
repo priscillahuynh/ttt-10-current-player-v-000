@@ -8,5 +8,6 @@ def turn_count
     # turns +=  occupied_positions <= board.length-1
     # puts "#{turn_count(occupied_positions)}"
   end
+end
   # return turns_played
 end
