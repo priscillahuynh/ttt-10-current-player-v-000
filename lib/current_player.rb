@@ -1,6 +1,7 @@
 def turn_count
   board=[" "," "," "," "," "," "," "," "," ",]
   count = 0
+  until count == 9
   board.each do |occupied_positions|
     count +=1
     puts "#{occupied_positions.length}"
