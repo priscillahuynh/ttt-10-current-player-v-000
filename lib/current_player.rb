@@ -9,5 +9,5 @@ def turn_count(board)
     # puts "#{turn_count(occupied_positions)}"
   end
 end
-  # return turns_played
+  return turns_played
 end
