@@ -12,11 +12,11 @@ end
 end
 
 def current_player
-  if turn_count%2 == 0
-    player= "X"
-    puts "X"
+  num_turns = turn_count
+  if num_turns % 2 == 0
+    player = "X"
   else
-    player="O"
-    puts "O"
-end
+    player = "O"
+  end
+  return player
 end
