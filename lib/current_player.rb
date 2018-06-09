@@ -1,5 +1,5 @@
 def turn_count(board)
-  board=[" "," "," "," "," "," "," "," "," ",]
+  # board=[" "," "," "," "," "," "," "," "," ",]
   turns_played = 0
   board.each do |occupied_positions|
     if occupied_positions == "X" || occupied_positions == "O"
